@@ -38,22 +38,24 @@ body{
 }
 
 .google img{
-    width: 50%;
+    width: 50% auto;
     height: 100%;
 }
 
 .búsqueda{
     width: 100%;
+    height: 20%;
     background-color: aqua;
     display: flex;
     justify-content: center;
 }
 
 .searchinpute{
-    width: 100%
+    width: 100%;
 }
 .searchinpute input{
     border-radius: 40px;
+    width: 100%;
 }
 
 .buscar{
