@@ -7,7 +7,7 @@
 
 body{
     width: 100vw;
-    height: 100;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -21,23 +21,24 @@ body{
 }
 
 .nav > div{
-    padding: 1%
+    padding: 1%;
 }
 
 .perfil img{
     border-radius: 50%;
-    height: 80%;
+    height: 60%;
 }
 
 .google{
+    height: 30%;
     display:flex;
     justify-content: center;
     align-content: center;
 }
 
 .google img{
-    width: 30%;
-    height: 60%;
+    width: 50%;
+    height: 100%;
 }
 
 .búsqueda{
@@ -72,7 +73,7 @@ body{
 
 .botones{
     width: 100%;
-    height: 10%;
+    height: 5%;
     display: flex;
     justify-content: center; 
     font-size: 100%;
@@ -83,7 +84,6 @@ body{
     display: flex;
     flex-direction:row;
     align-self: center;
-    border-color: white;
     padding-right: 2%;
 }
 
@@ -91,19 +91,24 @@ body{
     display: flex;
     flex-direction:row;
     align-self: center;
-    border-color: white;
 }
 
 .botón1 button{
     width: 150px;
     background-color: #f8f9fa;
-    border-color: white;
+    border-color: #f8f9fa;
+    box-shadow: white;
+    margin: none;
+    border-radius: 3px;
 }
 
 .botón2 button{
     width: 150px;
     background-color: #f8f9fa;
-    border-color: white;
+    border-color: #f8f9fa;
+    box-shadow: white;
+    margin: none;
+    border-radius: 3px;
 }
 
 .español{
