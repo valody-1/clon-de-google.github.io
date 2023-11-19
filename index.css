@@ -1,29 +1,147 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
-    font-style: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.body{
+body{
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    height: 15%;
     display: flex;
-}
-
-.header{
-    text-align: right;
-    width: 90% px
-    height: 10%;
-    backgroung-color: yellow;
     flex-direction: row;
-    justify-content: ;
+    justify-content:flex-end;
+    font-size:90%;
 }
 
-#opciones{
-    widht: 10 px;
-    height: 10 px;
+.gmail{
+    padding: 2% 1%;
+}
 
+.imágenes{
+    padding: 2% 1%;
+}
+
+.menú{
+    padding: 2%;
+}
+
+.perfil{
+    padding-top: 1%;
+}
+.perfil img{
+    border-radius: 50%;
+    border: black 1px;
+    height: 50%;
+}
+
+.google{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.google img{
+    width: 55%;
+    height: 70%;
+}
+
+.búsqueda{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.searchinpute{
+    width: 100%
+}
+.searchinpute input{
+    border-radius: 40px;
+}
+
+.buscar{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.micrófono{
+    display: flex;    
+    justify-content: flex-end;
+}
+
+.cámara{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
+.botones{
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 100%;
+    
+}
+
+.botón1{
+    background-color: #f8f9fa;
+    border-color: white;
+    padding: 15px;
+}
+
+.botón2{
+    background-color: #f8f9fa;
+    border-color: white;
+    padding: 15px;
+}
+
+.español{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.méxico{
+    width: 100%;
+    height: 5%;
+    padding: 3%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.footer{
+    width: 100%;
+    height: 7%;
+    padding: 4px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-flow: row;
+    font-size: 100%;
+    align-content: center;
+    border-top: #dfe1e4 ;
+}
+
+footer .article{
+    width: 100%;
+    height: 10%;
+    padding: 10%;
+    margin: 10%;
+    align-self: center;  
+}
