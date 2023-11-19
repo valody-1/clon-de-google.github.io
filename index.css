@@ -2,14 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-body{
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    font-style: roboto;
 }
 
 .nav{
@@ -18,23 +10,27 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
-    font-size:100%;
+    font-size:90%;
 }
 
 .nav > div{
-    padding: 1%;
+    padding: 10px;
+}
+
+.menu img{
+    height: 30px;
 }
 
 .perfil img{
     border-radius: 50%;
-    height: 60%;
+    height: 30px;
 }
 
 .google{
+    width: 100%;
     height: 30%;
     display:flex;
     justify-content: center;
-    align-content: center;
 }
 
 .google img{
@@ -43,35 +39,42 @@ body{
 }
 
 .búsqueda{
-    width: 100%;
-    height: 20%;
+    height: 30% auto;
+    position:relative;
     background-color: aqua;
-    display: flex;
-    justify-content: center;
+    
 }
 
-.searchinpute{
+.inpute-search{
     width: 100%;
+    height: 100% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
 }
-.searchinpute input{
+
+.inpute{
+    position: center;
+    width: 90%;
+    height: 10%;
+    padding: 1%;
+    border: solid 2px#ccc;
     border-radius: 40px;
-    width: 100%;
+    outline:none;
+    
 }
 
 .buscar{
-    display: flex;
-    justify-content: flex-start;
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    top: 41%;
+    right: 2%;
+    color: #777;
 }
 
-.micrófono{
-    display: flex;    
-    justify-content: flex-end;
-}
-
-.cámara{
-    display: flex;
-    justify-content: flex-end;
-}
 
 
 .botones{
@@ -137,19 +140,30 @@ body{
 .footer{
     font-style: roboto;
     width: 100%;
-    height: 12%;
-    padding: 10px;
+    height: 10%;
     background-color: #f2f2f2;
     display: flex;
-    flex-flow: row;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
-.footer > article{
+.sección1{
     display: flex;
-    align-self: center;
-    width: 100%;
-    height: 8%;
-    font-size: 100%;
+    flex-direction: column;
+    flex-direction: row;
 }
 
+.sección1 > article{
+    padding: 5px;
+    border-right: 5px;
+}
+
+.sección2{
+    display: flex;
+    flex-direction: row;
+}
+
+.sección2 > article{
+    padding: 5px;
+    border-right: 5px;
+}
