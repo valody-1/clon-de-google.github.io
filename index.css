@@ -2,146 +2,199 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body{
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    color: black;
 }
 
 .nav{
     width: 100%;
-    height: 15%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
     font-size:90%;
 }
 
-.gmail{
-    padding: 2% 1%;
+.nav > div{
+    padding: 10px;
 }
 
-.imágenes{
-    padding: 2% 1%;
+.menu img{
+    height: 30px;
 }
 
-.menú{
-    padding: 2%;
-}
-
-.perfil{
-    padding-top: 1%;
-}
 .perfil img{
     border-radius: 50%;
-    border: black 1px;
-    height: 50%;
+    height: 30px;
 }
 
 .google{
+    width: 100%;
+    height: 25%;
     display:flex;
     justify-content: center;
-    align-content: center;
 }
 
 .google img{
-    width: 55%;
-    height: 70%;
+    width: 50% auto;
+    height: 100%;
 }
 
 .búsqueda{
-    width: 100%;
+    height: 30% auto;
+    position:relative;
     background-color: aqua;
-    display: flex;
-    justify-content: center;
+    
 }
 
-.searchinpute{
-    width: 100%
+.inpute-search{
+    width: 100%;
+    height: 100% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
 }
-.searchinpute input{
+
+.inpute{
+    position: center;
+    width: 50%;
+    height: 8%;
+    padding: 1%;
+    border: solid 2px#ccc;
     border-radius: 40px;
+    outline:none;
+    
 }
 
 .buscar{
-    display: flex;
-    justify-content: flex-start;
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    top: 37%;
+    right: 19%;
+    color: #777;
 }
 
-.micrófono{
-    display: flex;    
-    justify-content: flex-end;
-}
-
-.cámara{
-    display: flex;
-    justify-content: flex-end;
-}
 
 
 .botones{
-    background-color: yellow;
     width: 100%;
-    height: 20%;
-    padding: 7%;
+    height: 15%;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 100%;
+    justify-content: center; 
+    font-size: 90%;
     
 }
 
 .botón1{
-    background-color: #f8f9fa;
-    border-color: white;
-    padding: 15px;
+    height: 35%;
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+    padding-right: 1%;
+    border-color: #f8f9fa;
 }
 
 .botón2{
+    height: 35%;
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+    border-color: #f8f9fa;
+}
+
+.botón1 button{
+    width: 155px;
     background-color: #f8f9fa;
-    border-color: white;
-    padding: 15px;
+    box-shadow: none;
+    border-color: #f8f9fa;
+    margin: none;
+    border: white 1px;
+    transition: all 0.2 s;
+
+}
+
+.botón1 button:hover{
+    cursor: pointer;
+    border:#b1b0b0 solid 1px;
+}
+
+.botón2 button{
+    width: 155px;
+    background-color: #f8f9fa;
+    box-shadow: none;
+    margin: none;
+    border: white 1px;
+    transition: all 0.2 s;
+}
+
+.botón2 button:hover{
+    cursor: pointer;
+    border:#b1b0b0 solid 1px;
 }
 
 .español{
     width: 100%;
-    height: 20%;
-    padding: 10px;
+    height: 30%;
+    padding: 9px;
     display: flex;
     justify-content: center;
     align-content: flex-end;
+    font-size: 80%;
 }
 
 .méxico{
     width: 100%;
-    height: 5%;
-    padding: 3%;
+    height: 6%;
+    padding: 10px;
     background-color: #f2f2f2;
     display: flex;
     justify-content: flex-start;
     align-content: flex-end;
 }
 
-.footer{
-    width: 100%;
-    height: 7%;
-    padding: 4px;
-    background-color: #f2f2f2;
-    display: flex;
-    flex-flow: row;
-    font-size: 100%;
-    align-content: center;
-    border-top: #dfe1e4 ;
+.texto-méxico{
+    width: 50%;
+    padding-left: 2%;
+    align-self: center;
 }
 
-footer .article{
+.footer{
+    font-style: roboto;
     width: 100%;
-    height: 10%;
-    padding: 10%;
-    margin: 10%;
-    align-self: center;  
+    height: 6%;
+    background-color: #f2f2f2;
+    border: solid #cfcfcf 1px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.sección1{
+    padding-left: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.sección1 > article{
+    padding: 2%;
+    border-right: 5px;
+}
+
+.sección2{
+    padding-right: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.sección2 > article{
+    padding: 2%;
+    border-right: 5px;
 }
